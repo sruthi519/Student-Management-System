@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    background: #2c3e50;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #1abc9c;
+}
+
+/* Main content */
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    background: #3498db;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
